@@ -1,0 +1,1003 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+html,body{
+    overflow-x: hidden;
+}
+.content{
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    
+}
+.mainbx{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    overflow-x: clip;
+}
+#row1{
+    grid-row: 1/1;
+    height: 6.5vw;
+    min-width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 1;
+}
+#img1{
+    position: relative;
+    top: 2.5vw;
+    left: 10vw;
+}
+#menu > a{
+    position: relative;
+    top: .75vw;
+    left: 37vw;
+    text-decoration: none;
+    color: grey;
+    margin: .8vw;
+    font-family: "Public Sans";
+    font-size: 15px;
+}
+#invt-btn{
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border-style: none;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 80%);
+    position: relative;
+    top: -1vw;
+    left: 82vw;
+    font-family: "Public Sans";
+    color: white;
+    cursor: pointer;
+}
+#row2{
+    grid-row: 2/2;
+    max-height: 41vw;
+    background-color: hsla(0, 7%, 89%, 0.463);
+}
+#row2 > h1{
+    font-family: "Public Sans";
+    position: relative;
+    top: 15vw;
+    left: 10vw;
+    margin-right: 74vw;
+    font-weight: 300;
+    font-size: 40px;
+}
+#row2 > p{
+    font-family: "Public Sans";
+    position: relative;
+    top: 16.5vw;
+    left: 10vw;
+    margin-right: 73.5vw;
+    font-size: 15px;
+    line-height: 1.5vw;
+    color: rgb(115, 112, 112);
+}
+#invt-btn2{
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border-style: none;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 80%);
+    position: relative;
+    top: 18vw;
+    left: 10vw;
+    font-family: "Public Sans";
+    color: white;
+    cursor: pointer;
+}
+#img2{
+    position: relative;
+    top: -20.0vw;
+    left: 35.5vw;
+    height: 52vw;
+    width: 95vw;
+}
+#img3{
+    position: relative;
+    top: -65.4vw;
+    left: 60vw;
+    height: 52vw;
+}
+#row3{
+    grid-row: 3/3;
+    height: 590px;
+    background-color: hsla(0, 7%, 89%, 0.806);
+}
+#infobx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 7.6vw;
+    left: 3.1vw;
+    margin: 7.5vw;
+}
+#bx1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9vw;
+    font-family: "Public Sans";
+    
+}
+#bx1 > p{
+    margin-right: 5.86vw;
+    font-size: 13px;
+    color: rgb(115, 112, 112);
+    line-height: 22px;
+}
+#bx1 > img{
+    position: relative;
+    left: 0vw;
+    height: 75px;
+    width: 75px;
+}
+#bx1 > img[src="images/icon-api.svg"]{
+    left: 0vw;
+}
+#bx1 > h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+#row3 > h1{
+    font-family: "Public Sans";
+    font-weight: 300;
+    position: relative;
+    top: 7.6vw;
+    left: 10.5vw;
+}
+#row3 > p{
+    font-family: "Public Sans";
+    font-size: 13px;
+    margin-right: 65vw;
+    position: relative;
+    top: 8.5vw;
+    left: 10.5vw;
+    color: rgb(115, 112, 112);
+}
+#row4{
+    grid-row: 4/4;
+    height: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+#artcl-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16.5vw;
+    left: -6.5vw;
+    height: 310px;
+    width: 850px;
+}
+#abx{
+    background-color: white;
+    height: 300px;
+    width: 190px;
+    margin: 10px;
+}
+#abx > img{
+    height: 130px;
+    width: 190px;
+}
+#row4 > h1{
+    font-family: "Public Sans";
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    top: 10.9vw;
+    left: 126.5px;
+}
+#p01{
+    font-family: "Public Sans";
+    font-size: 9px;
+    position: relative;
+    top: 1vw;
+    left: 1.3vw;
+}
+#p02{
+    font-family: "Public Sans";
+    font-size: 11px;
+    position: relative;
+    top: 2.5vw;
+    left: 1.3vw;
+    margin-right: 3vw;
+    color: gray;
+    margin-right: 2.5vw;
+}
+#abx > h5{
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    top: 1.5vw;
+    left: 1.3vw;
+    margin-right: 2.7vw;
+}
+#row5{
+    grid-row: 5/5;
+    height: 150px;
+    background-color: hsl(233, 26%, 24%);
+    
+}
+#row-bx > #logo{
+    position: relative;
+    top: 2vw;
+    left: 19vw;
+}
+#sm-logos > img{
+    position: relative;
+    top: 5vw;
+    left: 19vw;
+    margin: 0.2vw;
+}
+#menu2, #menu3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18px;
+}
+#menu2 > a{
+    position: relative;
+    top: -2vw;
+    left: -10vw;
+    margin: 0.5vw;
+    font-family: "Public Sans";
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+#menu3 > a{
+    position: relative;
+    top: -3.4vw;
+    left: 1vw;
+    margin: 0.5vw;
+    font-family: "Public Sans";
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#row-bx > button{
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border-style: none;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 80%);
+    position: relative;
+    top: -4.1vw;
+    left: 75vw;
+    font-family: "Public Sans";
+    color: white;
+    cursor: pointer;
+}
+#row-bx > p{
+    position: relative;
+    top: -1.5vw;
+    left: 69vw;
+    font-family: "Public Sans";
+    color: rgb(115, 112, 112);
+    font-size: 14px;
+}
+#menu > a:hover:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2.5px;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 80%);
+    position: absolute;
+    top: 3.8vw;
+    left: 0px;
+}
+#invt-btn:hover,
+#invt-btn2:hover,
+#row-bx > button:hover{
+    opacity: 65%;
+}
+#abx > h5:hover{
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+#mbl-btn{
+    display: none;
+}
+#logo-txt{
+    display: none;
+}
+
+@media screen and (min-device-width:300px) and (max-device-width:399px) {
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x: clip;
+        scroll-behavior: smooth;
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+    }
+    .mainbx{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+        
+    }
+    #menu{
+        display: none;
+    }
+    #invt-btn{
+        display: none;
+    }
+    #row1{
+        grid-row: 1/1;
+        height: 15vw;
+    }
+    #img1{
+        top: 5vw;
+        left: 7vw;
+    }
+    #mbl-btn{
+        display: block;
+        position: relative;
+        top: 0vw;
+        left: 87vw;
+    }
+    #row2{
+        grid-row: 2/2;
+        min-height: 180vw;
+        background-color: white;
+    }
+    #img2{
+        top: -86.5vw;
+        left: -20.5vw;
+        height: 135vw;
+        width: 168vw;
+        
+    }
+    #img3{
+        top: -206vw;
+        left: 2.5vw;
+        height: 113.2vw;
+        width: 95vw;
+        
+    }
+    #row2 > h1{
+        top: 95vw;
+        left: -4vw;
+        margin-right: 60vw;
+        text-align: center;
+    }
+    #row2 > p{
+        top: 98vw;
+        left: 9vw;
+        margin-right: 70vw;
+        line-height: 6vw;
+    }
+    #invt-btn2{
+        top: 105vw;
+        left: 35vw;
+    }
+    #row3{
+        grid-row: 3/3;
+        height: 330vw;
+    }
+    #row3 > h1{
+        margin-right: 90vw;
+        text-align: center;
+        top: 15vw;
+
+    }
+    #row3 > p{
+        margin-right: 85vw;
+        text-align: center;
+        top: 20vw;
+        line-height: 6vw;
+    }
+    #infobx{
+        display: flex;
+        flex-direction: column;
+        top: 30vw;
+        left: -7.8vw;
+        width: 100vw;
+        height: 210vw;
+        gap: 10vw;
+    }
+    #bx1 > p{
+        margin-right: 20vw;
+        text-align: center;
+    }
+    #infobx > #bx1{
+        position: relative;
+        top: 15vw;
+        left: 10vw;
+        gap: 5vw;
+    }
+    #bx1 > img{
+        left: 30vw;
+    }
+    #bx1 > h2{
+        position: relative;
+        left: 20vw;
+    }
+    #bx1 > img[src="images/icon-api.svg"]{
+        left: 30vw;
+    }
+    #infobx > #bx1 > #bx1-h2{
+        position: relative;
+        left: 29vw;
+    }
+    #row4{
+        grid-row: 4/4;
+        height: 440vw;
+    }
+    #artcl-row{
+        display: flex;
+        flex-direction: column;
+        top: 190vw;
+        left: -0vw;
+    }
+    #row4 > h1{
+        margin-right: -120vw;
+        left: 20vw;
+        top: 23vw;
+    }
+    #artcl-row > #abx{
+        width: 80vw;
+        min-height: 90vw;
+    }
+    #abx > img{
+        width: 100%;
+        height: 45vw;
+    }
+    #abx > #p01,
+    #abx > #p02,
+    #abx > h5{
+        left: 5vw;
+        margin-top: 4vw;
+    }
+    #abx > h5{
+        margin-right: 21vw;
+    }
+    #abx > #p02{
+        margin-right: 20vw;
+        line-height: 4vw;
+    }
+    #row5{
+        grid-row: 5/5;
+        height: 110vw;
+    }
+    #row-bx{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #row-bx > #logo{
+        height: 8vw;
+        width: 50vw;
+        top: 5vw;
+        left: 23vw;
+    }
+    #menu2 > a{
+        left: -33vw;
+        top: 12vw;
+        margin-top: 3vw;
+    }
+    #menu3 > a{
+        left: -33vw;
+        top: 29vw;
+        margin-top: 3vw;
+    }
+    #sm-logos{
+        position: relative;
+        top: 5vw;
+        left: 15vw;
+    }
+    #row-bx > button{
+        top: 52vw;
+        left: 35vw;
+    }
+    #row-bx > p{
+        top: 58vw;
+        left: 23vw;
+    }
+    #row-bx > #logo-txt{
+        display: block;
+        position: relative;
+        top: 13vw;
+        left: 36vw;
+        font-family: "Public Sans";
+        font-weight: 600;
+        font-size: 25px;
+        color: white;
+        z-index: 2;
+    }
+    #row1 > #menu{
+        display: none;
+        background-color: white;
+        height: 60vw;
+        width: 80vw;
+        position: relative;
+        top: 10vw;
+        left: 10vw;
+        border-radius: 6px;
+    }
+    #row1 > #menu > a{
+        display: flex;
+        flex-direction: column;
+        margin: 4vw;
+        position: relative;
+        top: 10vw;
+        left: 30vw;
+    }
+}
+@media screen and (min-device-width:400px) and (max-device-width:499px) {
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x: clip;
+        scroll-behavior: smooth;
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+    }
+    .mainbx{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+        
+    }
+    #menu{
+        display: none;
+    }
+    #invt-btn{
+        display: none;
+    }
+    #row1{
+        grid-row: 1/1;
+        height: 15vw;
+    }
+    #img1{
+        top: 5vw;
+        left: 7vw;
+    }
+    #mbl-btn{
+        display: block;
+        position: relative;
+        top: 0vw;
+        left: 87vw;
+    }
+    #row2{
+        grid-row: 2/2;
+        min-height: 180vw;
+        background-color: white;
+    }
+    #img2{
+        top: -86.5vw;
+        left: -20.5vw;
+        height: 135vw;
+        width: 168vw;
+        
+    }
+    #img3{
+        top: -206vw;
+        left: 2.5vw;
+        height: 113.2vw;
+        width: 95vw;
+        
+    }
+    #row2 > h1{
+        top: 95vw;
+        left: 2vw;
+        margin-right: 70vw;
+        text-align: center;
+    }
+    #row2 > p{
+        top: 98vw;
+        left: 13vw;
+        margin-right: 80vw;
+        line-height: 6vw;
+    }
+    #invt-btn2{
+        top: 105vw;
+        left: 35vw;
+    }
+    #row3{
+        grid-row: 3/3;
+        height: 330vw;
+    }
+    #row3 > h1{
+        margin-right: 90vw;
+        text-align: center;
+        top: 15vw;
+
+    }
+    #row3 > p{
+        margin-right: 90.7vw;
+        text-align: center;
+        top: 20vw;
+        line-height: 6vw;
+    }
+    #infobx{
+        display: flex;
+        flex-direction: column;
+        top: 30vw;
+        left: -7.8vw;
+        width: 100vw;
+        height: 210vw;
+        gap: 10vw;
+    }
+    #bx1 > p{
+        margin-right: 28vw;
+        text-align: center;
+        position: relative;
+        left: 4vw;
+    }
+    #infobx > #bx1{
+        position: relative;
+        top: 15vw;
+        left: 10vw;
+        gap: 5vw;
+    }
+    #bx1 > img{
+        left: 30vw;
+    }
+    #bx1 > h2{
+        position: relative;
+        left: 20vw;
+    }
+    #bx1 > img[src="images/icon-api.svg"]{
+        left: 30vw;
+    }
+    #infobx > #bx1 > #bx1-h2{
+        position: relative;
+        left: 29vw;
+    }
+    #row4{
+        grid-row: 4/4;
+        height: 440vw;
+    }
+    #artcl-row{
+        display: flex;
+        flex-direction: column;
+        top: 190vw;
+        left: 2.5vw;
+    }
+    #row4 > h1{
+        margin-right: -120vw;
+        left: 10vw;
+        top: 23vw;
+    }
+    #artcl-row > #abx{
+        width: 80vw;
+        min-height: 90vw;
+    }
+    #abx > img{
+        width: 100%;
+        height: 45vw;
+    }
+    #abx > #p01,
+    #abx > #p02,
+    #abx > h5{
+        left: 5vw;
+        margin-top: 4vw;
+    }
+    #abx > h5{
+        margin-right: 21vw;
+    }
+    #abx > #p02{
+        margin-right: 20vw;
+        line-height: 4vw;
+    }
+    #row5{
+        grid-row: 5/5;
+        height: 110vw;
+    }
+    #row-bx{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #row-bx > #logo{
+        height: 8vw;
+        width: 50vw;
+        top: 5vw;
+        left: 23vw;
+    }
+    #menu2 > a{
+        left: -33vw;
+        top: 12vw;
+        margin-top: 3vw;
+    }
+    #menu3 > a{
+        left: -33vw;
+        top: 29vw;
+        margin-top: 3vw;
+    }
+    #sm-logos{
+        position: relative;
+        top: 5vw;
+        left: 15vw;
+    }
+    #row-bx > button{
+        top: 52vw;
+        left: 35vw;
+    }
+    #row-bx > p{
+        top: 58vw;
+        left: 23vw;
+    }
+    #row-bx > #logo-txt{
+        display: block;
+        position: relative;
+        top: 13vw;
+        left: 36vw;
+        font-family: "Public Sans";
+        font-weight: 600;
+        font-size: 25px;
+        color: white;
+        z-index: 2;
+    }
+    #row1 > #menu{
+        display: none;
+        background-color: white;
+        height: 60vw;
+        width: 80vw;
+        position: relative;
+        top: 10vw;
+        left: 10vw;
+        border-radius: 6px;
+    }
+    #row1 > #menu > a{
+        display: flex;
+        flex-direction: column;
+        margin: 4vw;
+        position: relative;
+        top: 10vw;
+        left: 30vw;
+    }
+}
+@media screen and (orientation:landscape) and (hover:none) and (pointer:coarse){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x: clip;
+        scroll-behavior: smooth;
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+    }
+    .mainbx{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+        
+    }
+    #menu{
+        display: none;
+    }
+    #invt-btn{
+        display: none;
+    }
+    #row1{
+        grid-row: 1/1;
+        height: 15vw;
+    }
+    #img1{
+        top: 5vw;
+        left: 7vw;
+    }
+    #mbl-btn{
+        display: block;
+        position: relative;
+        top: 2.5vw;
+        left: 87vw;
+    }
+    #row2{
+        grid-row: 2/2;
+        min-height: 180vw;
+        background-color: white;
+    }
+    #img2{
+        top: -86.5vw;
+        left: -20.5vw;
+        height: 135vw;
+        width: 168vw;
+        
+    }
+    #img3{
+        top: -206vw;
+        left: 2.5vw;
+        height: 113.2vw;
+        width: 95vw;
+        
+    }
+    #row2 > h1{
+        top: 95vw;
+        left: -4vw;
+        margin-right: 60vw;
+        text-align: center;
+    }
+    #row2 > p{
+        top: 98vw;
+        left: 15vw;
+        margin-right: 100vw;
+        line-height: 6vw;
+        text-align: center;
+    }
+    #invt-btn2{
+        top: 105vw;
+        left: 44vw;
+    }
+    #row3{
+        grid-row: 3/3;
+        height: 330vw;
+    }
+    #row3 > h1{
+        margin-right: 90vw;
+        text-align: center;
+        top: 15vw;
+
+    }
+    #row3 > p{
+        margin-right: 85vw;
+        text-align: center;
+        top: 20vw;
+        line-height: 6vw;
+    }
+    #infobx{
+        display: flex;
+        flex-direction: column;
+        top: 30vw;
+        left: -7.8vw;
+        width: 100vw;
+        height: 210vw;
+        gap: 10vw;
+    }
+    #bx1 > p{
+        margin-right: 50vw;
+        text-align: center;
+        position: relative;
+        left: 14vw;
+    }
+    #infobx > #bx1{
+        position: relative;
+        top: 15vw;
+        left: 10vw;
+        gap: 5vw;
+    }
+    #bx1 > img{
+        left: 34vw;
+    }
+    #bx1 > h2{
+        position: relative;
+        left: 30vw;
+    }
+    #bx1 > img[src="images/icon-api.svg"]{
+        left: 37vw;
+    }
+    #infobx > #bx1 > #bx1-h2{
+        position: relative;
+        left: 36vw;
+    }
+    #row4{
+        grid-row: 4/4;
+        height: 440vw;
+    }
+    #artcl-row{
+        display: flex;
+        flex-direction: column;
+        top: 190vw;
+        left: 10vw;
+    }
+    #row4 > h1{
+        margin-right: -120vw;
+        left: -47vw;
+        top: 10vw;
+        font-size: 45px;
+    }
+    #artcl-row > #abx{
+        width: 80vw;
+        min-height: 90vw;
+    }
+    #abx > img{
+        width: 100%;
+        height: 45vw;
+    }
+    #abx > #p01,
+    #abx > #p02,
+    #abx > h5{
+        left: 5vw;
+        margin-top: 4vw;
+    }
+    #abx > h5{
+        margin-right: 21vw;
+    }
+    #abx > #p02{
+        margin-right: 20vw;
+        line-height: 4vw;
+    }
+    #row5{
+        grid-row: 5/5;
+        height: 110vw;
+    }
+    #row-bx{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #row-bx > #logo{
+        height: 4vw;
+        width: 25vw;
+        top: 5vw;
+        left: 40vw;
+    }
+    #menu2 > a{
+        left: -33vw;
+        top: 12vw;
+        margin-top: 3vw;
+    }
+    #menu3 > a{
+        left: -33vw;
+        top: 29vw;
+        margin-top: 3vw;
+    }
+    #sm-logos{
+        position: relative;
+        top: 5vw;
+        left: 25vw;
+    }
+    #row-bx > button{
+        top: 52vw;
+        left: 44vw;
+    }
+    #row-bx > p{
+        top: 58vw;
+        left: 40vw;
+    }
+    #row-bx > #logo-txt{
+        display: block;
+        position: relative;
+        top: 9vw;
+        left: 46vw;
+        font-family: "Public Sans";
+        font-weight: 600;
+        font-size: 25px;
+        color: white;
+        z-index: 2;
+    }
+    #row1 > #menu{
+        display: none;
+        background-color: white;
+        height: 60vw;
+        width: 80vw;
+        position: relative;
+        top: 10vw;
+        left: 10vw;
+        border-radius: 6px;
+    }
+    #row1 > #menu > a{
+        display: flex;
+        flex-direction: column;
+        margin: 4vw;
+        position: relative;
+        top: 10vw;
+        left: 30vw;
+    }
+}
