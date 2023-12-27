@@ -674,11 +674,11 @@ html,body{
         display: flex;
         flex-direction: column;
         top: 190vw;
-        left: 2.5vw;
+        left: -13vw;
     }
     #row4 > h1{
-        margin-right: -120vw;
-        left: 10vw;
+        margin-right: -90vw;
+        left: 25vw;
         top: 23vw;
     }
     #artcl-row > #abx{
@@ -770,7 +770,7 @@ html,body{
         left: 30vw;
     }
 }
-@media screen and (orientation:landscape) and (hover:none) and (pointer:coarse){
+@media screen and (orientation:landscape) and (hover:none) and (pointer:coarse){ /*media query to target mobile landscape mode only*/ 
     *{
         margin: 0vw;
         padding: 0vw;
